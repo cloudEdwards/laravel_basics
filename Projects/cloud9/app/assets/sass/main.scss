@@ -1,7 +1,29 @@
 body { margin:0; }
 
 .top-banner {
-	background-size: 100% 0;
+	background-size: 100% auto;
+	width: 100%;
+	height:auto;
 	background-repeat: no-repeat;
-	border-bottom: solid steelblue;
+	background-attachment: scroll;
 }
+
+.navbar { 
+	margin-top:0;
+	background-color: hsla(180, 10%, 90%,.3);
+	background-image:none;
+	border:none;
+	border-bottom:solid thin linen;
+	border-radius:0;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.navbar-default .navbar-brand {
+	color: linen;
+}
+.navbar-default .navbar-nav>li>a {
+	color: linen;
+}
+

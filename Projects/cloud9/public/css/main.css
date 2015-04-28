@@ -1,1 +1,1 @@
-body{margin:0}.top-banner{background-size:100% 0;background-repeat:no-repeat;border-bottom:solid #4682b4}
+.navbar,.top-banner{background-size:100% auto;background-repeat:no-repeat}body{margin:0}.top-banner{width:100%;height:auto;background-attachment:scroll}.navbar{margin-top:0;background-color:rgba(227,232,232,.3);background-image:none;border:none;border-bottom:solid thin linen;border-radius:0;height:auto}.navbar-default .navbar-brand,.navbar-default .navbar-nav>li>a{color:linen}

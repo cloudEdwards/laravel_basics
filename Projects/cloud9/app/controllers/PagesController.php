@@ -1,12 +1,6 @@
-<?php namespace App\Http\Controllers;
+<?php
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-use View;
-
-use Illuminate\Http\Request;
-
-class PagesController extends Controller {
+class PagesController extends BaseController {
 
 	/**
 	 * Display the Home page.

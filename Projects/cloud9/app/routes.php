@@ -39,11 +39,3 @@ Route::get('/contact', [
 	'as'=>'contact',
 	'uses'=>'PagesController@contact'
 ]);
-
-
-
-
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
